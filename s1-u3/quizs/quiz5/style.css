@@ -1,0 +1,19 @@
+body {
+  border: 1px dotted red;
+}
+
+/* body > ul {
+  border: 1px solid blue;
+} */
+
+body ul {
+  border: 1px solid blue;
+}
+
+/* body ~ ul {
+  border: 1px solid blue;
+} */
+
+/* ul {
+  border: 1px solid blue;
+} */

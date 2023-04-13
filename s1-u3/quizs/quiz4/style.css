@@ -1,0 +1,23 @@
+h1.answer-a {
+  background: white;
+  color: blue;
+  text-shadow: 2px 2px 1px violet;
+}
+
+h1.answer-b {
+  background-color: white;
+  text-color: blue;
+  text-shadow: 2px 2px 1px skyblue;
+}
+
+h1.answer-c {
+  font-weight: 300;
+  text-color: blue;
+  background: white;
+}
+
+h1.answer-d {
+  font-weight: 300;
+  color: blue;
+  text-shadow: 2px 2px 1px skyblue;
+}

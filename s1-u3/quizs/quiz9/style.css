@@ -1,0 +1,18 @@
+#border-box {
+  box-sizing: border-box;
+  height: 120px;
+  padding: 10px 10px;
+  background-color: lightskyblue;
+  border: 10px purple solid;
+}
+
+#content-box {
+  height: 120px;
+  padding: 10px 10px;
+  background-color: pink;
+  border: 10px plum solid
+}
+
+body {
+  margin: 0
+}

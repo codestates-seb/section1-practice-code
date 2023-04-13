@@ -1,0 +1,15 @@
+/* li {
+  border: 1px solid blue;
+} */
+
+/* body li {
+  border: 1px solid blue;
+} */
+
+body > li {
+  border: 1px solid blue;
+}
+
+/* body ~ li {
+  border: 1px solid blue;
+} */

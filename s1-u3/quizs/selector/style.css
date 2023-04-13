@@ -1,0 +1,5 @@
+section > p:nth-last-child(10) {
+  padding: 50px 100px;
+  background-color: #4000c7;
+  color: white
+}
