@@ -1,0 +1,29 @@
+body {
+  background-color: red;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+header, aside, main, footer {
+  padding: 30px;
+  height: 200px;
+}
+
+header {
+  background-color: yellow;
+  flex-grow: 1;
+}
+
+main {
+  background-color: blue;
+  flex-grow: 1;
+}
+
+aside {
+  background-color: orange;
+}
+
+footer {
+  background-color: pink;
+}
