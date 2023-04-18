@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#garden {
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  gap: 1px;
+}
+
+.tile {
+  border: 1px solid black;
+}
+
+.water {
+  background-color: skyblue;
+  order: 0;
+}
+
+.poison {
+  background-color: purple;
+  order: -1;
+}

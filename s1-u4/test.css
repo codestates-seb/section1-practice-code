@@ -1,0 +1,61 @@
+* {
+  /* 전체 요소를 선택하는 셀렉터 */
+  padding: 0;
+  margin: 0;
+  border: 0;
+  /* 아무것도 묻지도 따지지도 않고 border-box */
+  box-sizing: border-box;
+}
+
+/* user agent stylesheet */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  border: 1px purple solid;
+  width: 360px;
+  height: 540px;
+}
+
+.display {
+  flex: 20 0 0;
+  border: 1px purple solid;
+}
+
+.controller {
+  flex: 15 0 0;
+  border: 1px purple solid;
+}
+
+.buttons {
+  /* flex-item */
+  flex: 65 0 0;
+
+  /* flex-container */
+  display: flex;
+  flex-direction: column;
+  border: 1px purple solid;
+}
+
+.buttons .row {
+  /* flex-item */
+  flex: 1 0 0;
+
+  /* flex-container */
+  display: flex;
+  flex-direction: row;
+  border: 1px blue solid;
+}
+
+.buttons .row > button {
+  /* flex-item */
+  flex: 1 0 0;
+  border: 1px yellow solid;
+}

@@ -1,0 +1,129 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    margin: 0;
+}
+#calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+    width: 280px;
+    height: 400px;
+    border-radius: 15px;
+    background-color: azure;
+    opacity: 0.5;
+}
+#output{
+    display: flex;
+    flex: 1.4;
+    justify-content: center;
+    align-items: center;
+}
+#screen{
+    display: flex;
+    width: 260px;
+    height: 60px;
+    border: 1px solid rgb(88, 129, 232);
+    border-radius: 15%;
+    font-size: 22pt;
+    justify-content: right;
+    align-items: center;
+    background-color: rgb(88, 129, 232);
+    color: white;
+}
+#input{
+    flex: 4;
+    display:grid;
+    grid-template-columns: 70px 1fr 1fr 1fr;
+    grid-template-rows: 60px 1fr 1fr 1fr 1fr;
+}
+.button{
+    color:white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid rgb(88, 129, 232);
+    background-color: rgb(88, 129, 232);
+    font-size: 1.25em;
+}
+.button:hover{
+    background-color: rgb(106, 27, 106);
+}
+.button:active{
+    background-color: rgb(255, 1, 1);
+}
+.anotherbutton{
+    color:white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid rgb(88, 129, 232);
+    background-color: rgb(88, 129, 232);
+    font-size: 1.75em;
+}
+.anotherbutton:hover{
+    background-color: rgb(106, 27, 106);
+}
+.anotherbutton:active{
+    background-color: rgb(255, 1, 1);
+}
+.longbutton{
+    color:white;
+    width: 115px;
+    height: 45px;
+    border-radius: 20%;
+    border: 1px solid rgb(88, 129, 232);
+    background-color: rgb(88, 129, 232);
+    font-size: 1.4em;
+}
+.longbutton:hover{
+    background-color: rgb(106, 27, 106);
+}
+.longbutton:active{
+    background-color: rgb(255, 1, 1);
+}
+#numberpad{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    display:grid;
+    grid-template-columns: 70px 1fr 1fr;
+    grid-template-rows: 60px 1fr 1fr;
+    place-items: center;
+}
+#anotherpad{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    display:grid;
+    grid-template-columns: 140px 70px;
+    grid-template-rows: 60px;
+    place-items: center;
+}
+#arithmetic{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    display:grid;
+    grid-template-columns: 70px;
+    grid-template-rows: 60px 1fr 1fr 1fr 1fr;
+    place-items: center;
+
+}
+#feature{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: grid;
+    grid-template-columns: 70px 1fr 1fr;
+    grid-template-rows: 60px;
+    place-items: center;
+}
